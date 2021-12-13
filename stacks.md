@@ -32,4 +32,12 @@ If you’re treating your list like a stack, then the key functions you will use
 
 ![](assets/push_and_pop.png)
 
-The awesome thing about append and pop is the efficiency is O(1), so there is no cost to using these functions! 
+The awesome thing about append and pop is the efficiency is O(1), so there is no cost to using these functions!
+
+Those are the main fucntions that you'll use for stacks, but there are some others that will be covered in this code [here.](stack_together.py)
+
+Once you feel comfortable with the code try doing [this](stack_problem.py) problem on your own.
+
+Finally, once you've finished, you can look at [this](stack_solution.py) possible solution and compare it to yours.
+
+Use [this](README.md) to get back to the main page.

@@ -22,7 +22,16 @@ The reason it's so important to have a balanced tree is because a balanced tree 
 
 ## Metaphor
 
-If 
+Imagine instead of a tree, we have a baby mobile, somthing that looks like this:
+
+![](assets/tree_baby_mobile.png)
+
+Each joint is a new node with data on the tree. If we have an equal number of nodes on each side then the mobile will stay balanced and out of the babies reach. However, if we move all the modes to the right side, then the mobile will become unbalance and the shapes will all fall in reach of the baby.
+
 ## Useful For?
 
 ## How to Use and Code walkthrough
+
+Once you feel comfortable with the code try doing [this](tree_problem.py) problem on your own.
+
+Finally, once you've finished, you can look at [this](tree_solution.py) possible solution and compare it to yours.
