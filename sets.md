@@ -20,7 +20,7 @@ One important note is that Python does not check if the number you're adding is 
 
 Sets are great but you can't do anything with an empty set! To add data to a set, you will use the add function, and to take data away from a set, use the remove function. Whenever you use these functions remember to add the data that you want to add and remove, like the example below:
 
-![](/assets/set_add_and_remove.png)
+![](/assets/set_add_and_remove.PNG)
 
 
 
