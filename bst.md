@@ -50,10 +50,10 @@ Most recursive problems can be done with a loop, but the code may be simpler or 
 
 ## How to Use and Code walkthrough
 
-The functions for tress are in this code [here.](/tree_together.py)
+The functions for trees are in this code [here.](/bst_together.py)
 
-Once you feel comfortable with the code try doing [this](/tree_problem.py) problem on your own.
+Once you feel comfortable with the code try doing [this](/bst_problem.py) problem on your own.
 
-Finally, once you've finished, you can look at [this](/tree_solution.py) possible solution and compare it to yours.
+Finally, once you've finished, you can look at [this](/bst_solution.py) possible solution and compare it to yours.
 
 Use [this](/README.md) to get back to the main page.
