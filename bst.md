@@ -28,10 +28,32 @@ Imagine instead of a tree, we have a baby mobile, somthing that looks like this:
 
 Each joint is a new node with data on the tree. If we have an equal number of nodes on each side then the mobile will stay balanced and out of the babies reach. However, if we move all the modes to the right side, then the mobile will become unbalance and the shapes will all fall in reach of the baby.
 
-## Useful For?
+## Recursion
+
+Before we get in depth on how to use tree, we want to go over recursion, as recursion is used to travel through the tree and find your data.
+
+Recursion is the practice of a function calling itself over and over again, where each problem completes a smaller portion of the problem. 
+
+Recursive functions must have a base case, and they must call themselves, usually with a simplified version of the problem. An example recursive function is below.
+```python
+# A simple recursive function that counts to five and prints the number
+def recursive_count_to_five(num):
+    # The base case is here
+    if num > 5:
+        return
+    # The function does its small version of the problem
+    print(num)
+    # The function calls itself, changing the input parameters
+    return recursive_count_to_five(num+1)
+```  
+Most recursive problems can be done with a loop, but the code may be simpler or more efficient with a recursive solution. For trees we use a recursive solution to travel through our tree because the code is much simpler than trying to make a loop.
 
 ## How to Use and Code walkthrough
+
+The functions for tress are in this code [here.](tree_together.py)
 
 Once you feel comfortable with the code try doing [this](tree_problem.py) problem on your own.
 
 Finally, once you've finished, you can look at [this](tree_solution.py) possible solution and compare it to yours.
+
+Use [this](README.md) to get back to the main page.

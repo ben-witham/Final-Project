@@ -34,7 +34,7 @@ If you’re treating your list like a stack, then the key functions you will use
 
 The awesome thing about append and pop is the efficiency is O(1), so there is no cost to using these functions!
 
-Those are the main fucntions that you'll use for stacks, but there are some others that will be covered in this code [here.](stack_together.py)
+Those are the main functions that you'll use for stacks, but there are some others that will be covered in this code [here.](stack_together.py)
 
 Once you feel comfortable with the code try doing [this](stack_problem.py) problem on your own.
 

@@ -22,8 +22,33 @@ Sets are great but you can't do anything with an empty set! To add data to a set
 
 ![](/assets/set_add_and_remove.PNG)
 
+You can check the length of a set by using the python len() function, just like you can do with an array. 
 
+Sets also tell you whether or not something a piece of data is within the set, and for pytho you'll use the in operator like this:
+```python
+my_set = {1,2,3}
+
+if 2 in my_set:
+    return True
+else:
+    my_set.add(2)
+```
+
+Finally, we can add sets together, using two different methods; one is an intersection, and one is a union. A union joins the sets together and removes any duplicate values, while an intersection shows only the duplicate values between the two sets. They are done like this:
+
+```python
+first_set = {1,2,4,6}
+second_set = {4,6,7,8}
+
+# This will give a result of {4, 6}
+intersection_set = intersection(first_set, second_set)
+# This will give a result of {1, 2, 4, 6, 7, 8}
+union_set = union(first_set, second_set)
+```
+Those are the main functions that you'll use for sets, and see them in action [here.](set_together.py)
 
 Once you feel comfortable with the code try doing [this](set_problem.py) problem on your own.
 
 Finally, once you've finished, you can look at [this](set_solution.py) possible solution and compare it to yours.
+
+Use [this](README.md) to get back to the main page.
